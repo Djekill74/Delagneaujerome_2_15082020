@@ -12,7 +12,7 @@ body {
   margin-right: auto;
 }
 
-.bloc {
+.header, .section, .footer {
   display: flex;
   justify-content: center;
 }
@@ -49,6 +49,17 @@ body {
 }
 
 /* Partie droite */
+.bdroit {
+  width: 40%;
+  padding-left: 40px;
+  border-right: 1px solid grey;
+}
+.bdroit img {
+  float: left;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
 h1, h2 {
   font-weight: normal;
 }
@@ -61,14 +72,8 @@ h1 {
   font: 2.2em;
 }
 
-.bdroit {
-  width: 40%;
-  padding-left: 40px;
-}
-.bdroit img {
-  float: left;
-  padding-right: 20px;
-  vertical-align: middle;
+h5 {
+  font-size: 1em;
 }
 
 .trait {
@@ -91,8 +96,9 @@ h1 {
   width: 70%;
 }
 
-.ssblocreco {
+.reconaissance {
   display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

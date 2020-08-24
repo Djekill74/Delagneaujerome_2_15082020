@@ -12,7 +12,7 @@ body {
 	margin-right: auto;
 }
 
-.bloc {
+.header, .section, .footer {
     display: flex; 
     justify-content : center
 }
@@ -54,6 +54,19 @@ body {
 
 /* Partie droite */
 
+
+.bdroit {
+    width: 40%;
+    padding-left: 40px;
+    border-right: 1px solid grey;
+    & img {
+    float: left;
+    padding-right: 20px;
+    vertical-align: middle;
+
+    }
+}
+
 h1, h2 {
     font-weight: normal;
     & span {
@@ -66,14 +79,8 @@ h1{
     font: 2.2em;
 }
 
-.bdroit {
-    width: 40%;
-    padding-left: 40px;
-    & img {
-    float: left;
-    padding-right: 20px;
-    vertical-align: middle;
-    }
+h5 {
+    font-size: 1.0em;
 }
 
 .trait {
@@ -96,6 +103,7 @@ h1{
     width: 70%;
 }
 
-.ssblocreco {
+.reconaissance {
     display: flex;
+    justify-content: space-around;
 }
