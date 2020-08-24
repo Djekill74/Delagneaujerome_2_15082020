@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* Général */
+body {
+  margin: 0;
+}
+
 .corptext {
   background: white;
   color: black;
