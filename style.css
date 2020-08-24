@@ -1,2 +1,94 @@
-body
-{background-color : black; color : blue};
+@charset "UTF-8";
+/* Général */
+.corptext {
+  background: white;
+  color: black;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  display: flex;
+  justify-content: center;
+}
+
+/* Partie gauche */
+.bgauche {
+  width: 20%;
+  background-color: yellowgreen;
+}
+.bgauche__header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bgauche p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.titregauche {
+  text-align: center;
+  background-color: grey;
+  color: yellowgreen;
+  font-size: 1.5em;
+}
+
+#photo {
+  width: 50%;
+}
+
+.loisir {
+  width: 20%;
+}
+
+/* Partie droite */
+h1, h2 {
+  font-weight: normal;
+}
+h1 span, h2 span {
+  color: yellowgreen;
+  font-style: normal;
+}
+
+h1 {
+  font: 2.2em;
+}
+
+.bdroit {
+  width: 40%;
+  padding-left: 40px;
+}
+.bdroit img {
+  float: left;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+.trait {
+  clear: both;
+  border-top: 1px solid yellowgreen;
+  width: 90%;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.ssbloc {
+  display: flex;
+}
+
+.annee {
+  width: 30%;
+}
+
+.realisation {
+  width: 70%;
+}
+
+.ssblocreco {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
