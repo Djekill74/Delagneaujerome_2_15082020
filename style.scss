@@ -52,6 +52,14 @@ body {
     width: 20%;
 }
 
+.hobbiesphoto {    
+    display: flex;
+    justify-content: space-between;;
+    & img {
+        width: 40%;
+    }
+}
+
 /* Partie droite */
 
 

@@ -48,6 +48,14 @@ body {
   width: 20%;
 }
 
+.hobbiesphoto {
+  display: flex;
+  justify-content: space-between;
+}
+.hobbiesphoto img {
+  width: 40%;
+}
+
 /* Partie droite */
 .bdroit {
   width: 40%;
