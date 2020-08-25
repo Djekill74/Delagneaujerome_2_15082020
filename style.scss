@@ -54,9 +54,9 @@ body {
 
 .hobbiesphoto {    
     display: flex;
-    justify-content: space-between;;
+    justify-content: space-around;
     & img {
-        width: 40%;
+        width: 20%;
     }
 }
 
@@ -87,15 +87,26 @@ h1{
     font: 2.2em;
 }
 
+h4 {
+    margin-block-start: 0;
+    margin-block-end: 1em;
+}
+
 h5 {
     font-size: 1.0em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.imagealign {
+    display: flex;
+    align-items: center;
 }
 
 .trait {
     clear: both;
     border-top: 1px solid yellowgreen;
     width: 90%;
-    margin-top: 30px;
     padding-bottom: 10px;
 }
 
