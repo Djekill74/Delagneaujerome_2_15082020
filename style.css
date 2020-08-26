@@ -120,4 +120,32 @@ h5 {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 480px) {
+  .corptext {
+    width: 100%;
+  }
+
+  .header, .section, .footer {
+    flex-direction: column;
+  }
+
+  .bgauche, .bdroit {
+    width: 100%;
+  }
+
+  .bdroit {
+    padding-left: 0;
+    border-right: none;
+  }
+
+  .bgauche p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hobbiesphoto img {
+    width: 10%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
