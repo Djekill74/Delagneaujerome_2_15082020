@@ -128,14 +128,22 @@ h5 {
   .header, .section, .footer {
     flex-direction: column;
   }
+  .header .bdroit, .section .bdroit, .footer .bdroit {
+    border-right: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .bgauche, .bdroit {
     width: 100%;
   }
 
-  .bdroit {
-    padding-left: 0;
-    border-right: none;
+  h1, h2 {
+    text-align: center;
+  }
+
+  .section__deux {
+    flex-direction: column-reverse;
   }
 }
 
