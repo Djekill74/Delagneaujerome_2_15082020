@@ -135,11 +135,7 @@ h5 {
   }
 
   .bgauche, .bdroit {
-    width: 100%;
-  }
-
-  .header .bdroit {
-    width: 90%;
+    width: auto;
   }
 
   h1, h2 {
@@ -148,10 +144,6 @@ h5 {
 
   .section__deux {
     flex-direction: column-reverse;
-  }
-
-  .reconaissance {
-    width: 90%;
   }
 }
 

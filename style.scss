@@ -143,12 +143,10 @@ h5 {
 
 
 .bgauche, .bdroit {
-    width: 100%;
+    width: auto;
 }
 
-.header .bdroit {
-    width: 90%;
-}
+
 
 h1, h2 {
     text-align: center;
@@ -157,8 +155,6 @@ h1, h2 {
 .section__deux {
     flex-direction: column-reverse;
 }
-.reconaissance {
-    width: 90%;
-}
+
 
 }
