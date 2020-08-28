@@ -112,7 +112,7 @@ h5 {
 }
 
 .realisation {
-  width: 70%;
+  width: 60%;
 }
 
 .reconaissance {
@@ -138,12 +138,20 @@ h5 {
     width: 100%;
   }
 
+  .header .bdroit {
+    width: 90%;
+  }
+
   h1, h2 {
     text-align: center;
   }
 
   .section__deux {
     flex-direction: column-reverse;
+  }
+
+  .reconaissance {
+    width: 90%;
   }
 }
 

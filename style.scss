@@ -71,7 +71,6 @@ body {
     float: left;
     padding-right: 20px;
     vertical-align: middle;
-
     }
 }
 
@@ -119,7 +118,7 @@ h5 {
 }
 
 .realisation {
-    width: 70%;
+    width: 60%;
 }
 
 .reconaissance {
@@ -142,8 +141,13 @@ h5 {
     }
 }
 
+
 .bgauche, .bdroit {
     width: 100%;
+}
+
+.header .bdroit {
+    width: 90%;
 }
 
 h1, h2 {
@@ -152,6 +156,9 @@ h1, h2 {
 
 .section__deux {
     flex-direction: column-reverse;
+}
+.reconaissance {
+    width: 90%;
 }
 
 }
