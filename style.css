@@ -17,6 +17,11 @@ body {
   justify-content: center;
 }
 
+i {
+  padding-right: 10px;
+  color: yellowgreen;
+}
+
 /* Partie gauche */
 .bgauche {
   width: 20%;
@@ -56,6 +61,13 @@ body {
   width: 20%;
 }
 
+.fa-hiking, .fa-gamepad, .material-icons {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  font-size: 3em;
+}
+
 /* Partie droite */
 .bdroit {
   width: 40%;
@@ -70,6 +82,7 @@ body {
 
 h1, h2 {
   font-weight: normal;
+  margin-block-end: 0;
 }
 h1 span, h2 span {
   color: yellowgreen;
@@ -96,6 +109,11 @@ h5 {
   align-items: center;
 }
 
+.trait_court {
+  border-top: 1px solid yellowgreen;
+  width: 10%;
+}
+
 .trait {
   clear: both;
   border-top: 1px solid yellowgreen;
@@ -118,6 +136,18 @@ h5 {
 .reconaissance {
   display: flex;
   justify-content: space-around;
+}
+
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
+  font-size: 2em;
+}
+
+.fa-dot-circle {
+  font-size: 0.9em;
+}
+
+.fa-circle {
+  font-size: 0.5em;
 }
 
 @media screen and (max-width: 480px) {
