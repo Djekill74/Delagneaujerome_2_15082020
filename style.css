@@ -12,7 +12,7 @@ body {
   margin-right: auto;
 }
 
-.header, .section, .footer {
+header, section, footer {
   display: flex;
   justify-content: center;
 }
@@ -47,6 +47,7 @@ i {
 
 #photo {
   width: 50%;
+  border-radius: 100px;
 }
 
 .loisir {
@@ -56,9 +57,6 @@ i {
 .hobbiesphoto {
   display: flex;
   justify-content: space-around;
-}
-.hobbiesphoto img {
-  width: 20%;
 }
 
 .fa-hiking, .fa-gamepad, .material-icons {
@@ -73,11 +71,6 @@ i {
   width: 40%;
   padding-left: 40px;
   border-right: 1px solid grey;
-}
-.bdroit img {
-  float: left;
-  padding-right: 20px;
-  vertical-align: middle;
 }
 
 h1, h2 {
@@ -155,10 +148,10 @@ h5 {
     width: 100%;
   }
 
-  .header, .section, .footer {
+  header, section, footer {
     flex-direction: column;
   }
-  .header .bdroit, .section .bdroit, .footer .bdroit {
+  header .bdroit, section .bdroit, footer .bdroit {
     border-right: none;
     padding-left: 20px;
     padding-right: 20px;
@@ -172,8 +165,12 @@ h5 {
     text-align: center;
   }
 
-  .section__deux {
+  .partie__deux {
     flex-direction: column-reverse;
+  }
+
+  .trait_court {
+    visibility: hidden;
   }
 }
 
